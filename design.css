@@ -1,0 +1,416 @@
+body {
+  padding-bottom: 0px;
+}
+
+.navbar-brand {
+    font-size: 25px !important;
+    font-family: bebas neue;
+    padding: 5px !important;
+    margin-left: -80px !important;
+    text-shadow: unset !important;
+    color: white;
+
+}
+
+.navbar
+{
+    border: 0px solid transparent !important;
+
+}
+
+.navbar-container {
+    padding: 20px 0 20px 0;
+
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #ffbd30 !important;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff !important;
+    text-shadow: unset !important;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+{
+    background-color: #ffbd30 !important;
+}
+
+.navbar-default
+{
+    border-radius: 0px !important;
+    background-color: transparent !important;
+    background-image: unset !important;
+    border-color: unset !important;
+    box-shadow: unset !important;
+
+
+}
+
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #2d2d2d;
+    box-shadow: 0 2px 6px rgba(0,0,0,.8);
+    height: 50px;
+
+ }
+ nav .navbar-nav{
+    margin-left:350px; 
+    font-family: bebas neue; 
+    letter-spacing: 1px;
+    color:white; 
+    font-size:15pt;
+
+}
+
+.navbar-brand.fixed-theme {
+    font-size: 23px;
+
+
+}
+
+.navbar-container.fixed-theme {
+    padding: 0px 0px 0px 0px;
+
+
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
+
+#about{
+    text-align: center;
+    font-family: montserrat light;
+    line-height: 2;
+    padding: 20px 150px 0px 150px;
+
+}
+
+#about-section
+{
+    height: 800px;
+    width: 100%;
+    background-image: url("white bg.jpg");
+    background-size: cover;
+}
+
+#promos-section
+{
+    height: 800px;
+    width: 100%;
+    background-image: url("white bg.jpg");
+    background-size: cover;
+}
+
+#page-header
+{
+    width:100%;
+    height: 690px;
+    background-color: #3d3d3d;
+    margin-top: -100px;
+    background-image: url("header bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#about-page-header
+{
+    width:100%;
+    height: 690px;
+    background-color: #3d3d3d;
+    margin-top: -100px;
+    background-image: url("about bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#promos-page-header
+{
+    width:100%;
+    height: 690px;
+    background-color: #3d3d3d;
+    margin-top: -100px;
+    background-image: url("promos bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#about-header-title
+{
+    text-align: center;
+    font-family: montserrat semibold;
+    letter-spacing: 2px;
+    padding-top: 60px;
+}
+
+#separator-about
+{
+    width: 300px;
+    border-color: #3d3d3d;
+    margin-top: 40px;
+
+}
+
+#page-header-h1
+{
+    font-family: bebas neue;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    padding: 280px 50px 0px 50px;
+    letter-spacing: 2px;
+
+}
+
+#page-header-subtit
+{
+    font-family: montserrat extralight;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    padding: 0px 50px 20px 50px;
+    margin-top: -20px; 
+    letter-spacing: -1px;
+
+}
+
+#home-subpage-header
+{
+    background-color: #ffbd30;
+    height: 280px;
+    width: 100%;
+}
+
+#see-more-btn
+{
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 50px;
+  width: 180px;
+  margin: auto;
+  display: block;
+  margin-top: 10px;
+  font-family: montserrat extralight;
+  color: white;
+  font-size:20px;
+  box-shadow: none;
+  -webkit-transition: all 0.5s;
+  cursor: pointer;
+}
+
+#see-more-btn:hover
+{
+  background-color: #ffbd30;
+  border: 1px solid #ffbd30;
+  color: #3d3d3d;   
+}
+
+#see-more-btn3
+{
+  background-color: transparent;
+  border: 1px solid #3d3d3d;
+  border-radius: 5px;
+  height: 50px;
+  width: 180px;
+  margin: auto;
+  display: block;
+  margin-top: 50px;
+  font-family: montserrat extralight;
+  color: #3d3d3d;
+  font-size:20px;
+  box-shadow: none;
+  -webkit-transition: all 0.5s;
+  cursor: pointer;
+}
+
+#see-more-btn3:hover
+{
+  background-color: #ffbd30;
+  border: 1px solid #ffbd30;
+  color: #3d3d3d;   
+}
+
+
+input:focus {
+    outline:none;
+}
+
+#home-about-section
+{
+    height: 570px;
+    width: 100%;
+    background-image: url("white bg.jpg");
+
+}
+
+#home-menu-section
+{
+    height: 1750px;
+    width: 100%;
+    background-image: url("home menu bg.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+#home-menu-title
+{
+    font-family: bebas neue;
+    font-size: 80px;
+    text-align: center;
+    color: #ffbd30;
+    letter-spacing: 1.7px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 170px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    height: 85px;
+    padding: 0px 0px 5px 5px;
+}
+
+#home-menu-subtitle
+{
+    font-family: bebas neue;
+    font-size: 50px;
+    color: white;
+    letter-spacing: -1px;
+    padding-left: 60px;
+   
+}
+
+.menu-bullet
+{
+    width: 80px;
+    height: 30px;
+    float: left;
+    background-color: #ffbd30;
+    margin-top: 30px;
+    margin-left: -30px;
+    border-radius: 50px;
+}
+
+#pizza-img, #pizza-box
+{
+    display: block;
+    margin: auto;
+}
+
+
+.pizza-info
+{
+    color: white;
+    text-align: center;
+}
+
+#pizza-name
+{
+    font-family: bebas neue;
+    font-size: 30px;
+}
+
+#pizza-desc
+{
+    font-family: montserrat extralight;
+    font-size: 15px;
+    padding: 0px 50px 0px 50px;
+}
+
+.pizza-prices
+{
+    font-family: bebas neue;
+
+}
+
+#price
+{
+    font-size: 20px !important;
+    margin-bottom: -5px;
+
+}
+
+#menu-see-more-btn
+{
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 50px;
+  width: 180px;
+  margin: auto;
+  display: block;
+  margin-top: 30px;
+  font-family: montserrat extralight;
+  color: white;
+  font-size:20px;
+  box-shadow: none;
+  -webkit-transition: all 0.5s;
+  cursor: pointer;
+}
+
+#menu-see-more-btn:hover
+{
+  background-color: #ffbd30;
+  border: 1px solid #ffbd30;
+  color: #3d3d3d;   
+}
+
+#call
+{
+    padding: 45px 0px 0px 30px;
+    float: left;
+}
+
+#phone-num
+{
+    padding-top:100px;
+    margin-left: 530px;
+    font-family: futura;
+    font-size: 25px;
+    text-shadow: 
+
+
+}
+
+#phone-num2
+{
+    margin-top:-10px;
+    font-family: futura;
+    font-size: 25px;
+    margin-left: 530px;
+
+
+}
+
+#see-more
+{
+    text-decoration: none;
+}
+
+.footer-bottom-layout {
+  background: #222222 none repeat scroll 0 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-bottom-layout {
+  text-align: center;
+}
+
+#img-abt
+{
+    margin: auto;
+    display: block;
+    float: left;
+    padding: 30px 30px;
+}
+
